@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0032B952901B7DA00A8DC44 /* DogChaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0032B942901B7DA00A8DC44 /* DogChaseApp.swift */; };
+		A0032B992901B7DB00A8DC44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0032B982901B7DB00A8DC44 /* Assets.xcassets */; };
+		A0032B9C2901B7DB00A8DC44 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0032B9B2901B7DB00A8DC44 /* Preview Assets.xcassets */; };
+		A0032BA62901B7DB00A8DC44 /* DogChaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0032BA52901B7DB00A8DC44 /* DogChaseTests.swift */; };
+		A0032BB02901B7DB00A8DC44 /* DogChaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0032BAF2901B7DB00A8DC44 /* DogChaseUITests.swift */; };
+		A0032BB22901B7DB00A8DC44 /* DogChaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0032BB12901B7DB00A8DC44 /* DogChaseUITestsLaunchTests.swift */; };
+		A0032BBF2901B81300A8DC44 /* DogCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0032BBE2901B81300A8DC44 /* DogCreationView.swift */; };
+		A0032BC12901B82900A8DC44 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0032BC02901B82900A8DC44 /* ProfileView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0032BA22901B7DB00A8DC44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0032B892901B7DA00A8DC44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0032B902901B7DA00A8DC44;
+			remoteInfo = DogChase;
+		};
+		A0032BAC2901B7DB00A8DC44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0032B892901B7DA00A8DC44 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0032B902901B7DA00A8DC44;
+			remoteInfo = DogChase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0032B912901B7DA00A8DC44 /* DogChase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogChase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0032B942901B7DA00A8DC44 /* DogChaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogChaseApp.swift; sourceTree = "<group>"; };
+		A0032B982901B7DB00A8DC44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0032B9B2901B7DB00A8DC44 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0032BA12901B7DB00A8DC44 /* DogChaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogChaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0032BA52901B7DB00A8DC44 /* DogChaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogChaseTests.swift; sourceTree = "<group>"; };
+		A0032BAB2901B7DB00A8DC44 /* DogChaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogChaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0032BAF2901B7DB00A8DC44 /* DogChaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogChaseUITests.swift; sourceTree = "<group>"; };
+		A0032BB12901B7DB00A8DC44 /* DogChaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogChaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0032BBE2901B81300A8DC44 /* DogCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCreationView.swift; sourceTree = "<group>"; };
+		A0032BC02901B82900A8DC44 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0032B8E2901B7DA00A8DC44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0032B9E2901B7DB00A8DC44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0032BA82901B7DB00A8DC44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0032B882901B7DA00A8DC44 = {
+			isa = PBXGroup;
+			children = (
+				A0032B932901B7DA00A8DC44 /* DogChase */,
+				A0032BA42901B7DB00A8DC44 /* DogChaseTests */,
+				A0032BAE2901B7DB00A8DC44 /* DogChaseUITests */,
+				A0032B922901B7DA00A8DC44 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0032B922901B7DA00A8DC44 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0032B912901B7DA00A8DC44 /* DogChase.app */,
+				A0032BA12901B7DB00A8DC44 /* DogChaseTests.xctest */,
+				A0032BAB2901B7DB00A8DC44 /* DogChaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0032B932901B7DA00A8DC44 /* DogChase */ = {
+			isa = PBXGroup;
+			children = (
+				A0032B942901B7DA00A8DC44 /* DogChaseApp.swift */,
+				A0032BBE2901B81300A8DC44 /* DogCreationView.swift */,
+				A0032BC02901B82900A8DC44 /* ProfileView.swift */,
+				A0032B982901B7DB00A8DC44 /* Assets.xcassets */,
+				A0032B9A2901B7DB00A8DC44 /* Preview Content */,
+			);
+			path = DogChase;
+			sourceTree = "<group>";
+		};
+		A0032B9A2901B7DB00A8DC44 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0032B9B2901B7DB00A8DC44 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0032BA42901B7DB00A8DC44 /* DogChaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0032BA52901B7DB00A8DC44 /* DogChaseTests.swift */,
+			);
+			path = DogChaseTests;
+			sourceTree = "<group>";
+		};
+		A0032BAE2901B7DB00A8DC44 /* DogChaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0032BAF2901B7DB00A8DC44 /* DogChaseUITests.swift */,
+				A0032BB12901B7DB00A8DC44 /* DogChaseUITestsLaunchTests.swift */,
+			);
+			path = DogChaseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0032B902901B7DA00A8DC44 /* DogChase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0032BB52901B7DB00A8DC44 /* Build configuration list for PBXNativeTarget "DogChase" */;
+			buildPhases = (
+				A0032B8D2901B7DA00A8DC44 /* Sources */,
+				A0032B8E2901B7DA00A8DC44 /* Frameworks */,
+				A0032B8F2901B7DA00A8DC44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogChase;
+			productName = DogChase;
+			productReference = A0032B912901B7DA00A8DC44 /* DogChase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0032BA02901B7DB00A8DC44 /* DogChaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0032BB82901B7DB00A8DC44 /* Build configuration list for PBXNativeTarget "DogChaseTests" */;
+			buildPhases = (
+				A0032B9D2901B7DB00A8DC44 /* Sources */,
+				A0032B9E2901B7DB00A8DC44 /* Frameworks */,
+				A0032B9F2901B7DB00A8DC44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0032BA32901B7DB00A8DC44 /* PBXTargetDependency */,
+			);
+			name = DogChaseTests;
+			productName = DogChaseTests;
+			productReference = A0032BA12901B7DB00A8DC44 /* DogChaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0032BAA2901B7DB00A8DC44 /* DogChaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0032BBB2901B7DB00A8DC44 /* Build configuration list for PBXNativeTarget "DogChaseUITests" */;
+			buildPhases = (
+				A0032BA72901B7DB00A8DC44 /* Sources */,
+				A0032BA82901B7DB00A8DC44 /* Frameworks */,
+				A0032BA92901B7DB00A8DC44 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0032BAD2901B7DB00A8DC44 /* PBXTargetDependency */,
+			);
+			name = DogChaseUITests;
+			productName = DogChaseUITests;
+			productReference = A0032BAB2901B7DB00A8DC44 /* DogChaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0032B892901B7DA00A8DC44 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A0032B902901B7DA00A8DC44 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					A0032BA02901B7DB00A8DC44 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A0032B902901B7DA00A8DC44;
+					};
+					A0032BAA2901B7DB00A8DC44 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = A0032B902901B7DA00A8DC44;
+					};
+				};
+			};
+			buildConfigurationList = A0032B8C2901B7DA00A8DC44 /* Build configuration list for PBXProject "DogChase" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0032B882901B7DA00A8DC44;
+			productRefGroup = A0032B922901B7DA00A8DC44 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0032B902901B7DA00A8DC44 /* DogChase */,
+				A0032BA02901B7DB00A8DC44 /* DogChaseTests */,
+				A0032BAA2901B7DB00A8DC44 /* DogChaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0032B8F2901B7DA00A8DC44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0032B9C2901B7DB00A8DC44 /* Preview Assets.xcassets in Resources */,
+				A0032B992901B7DB00A8DC44 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0032B9F2901B7DB00A8DC44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0032BA92901B7DB00A8DC44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0032B8D2901B7DA00A8DC44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0032BBF2901B81300A8DC44 /* DogCreationView.swift in Sources */,
+				A0032BC12901B82900A8DC44 /* ProfileView.swift in Sources */,
+				A0032B952901B7DA00A8DC44 /* DogChaseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0032B9D2901B7DB00A8DC44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0032BA62901B7DB00A8DC44 /* DogChaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0032BA72901B7DB00A8DC44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0032BB22901B7DB00A8DC44 /* DogChaseUITestsLaunchTests.swift in Sources */,
+				A0032BB02901B7DB00A8DC44 /* DogChaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0032BA32901B7DB00A8DC44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0032B902901B7DA00A8DC44 /* DogChase */;
+			targetProxy = A0032BA22901B7DB00A8DC44 /* PBXContainerItemProxy */;
+		};
+		A0032BAD2901B7DB00A8DC44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0032B902901B7DA00A8DC44 /* DogChase */;
+			targetProxy = A0032BAC2901B7DB00A8DC44 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0032BB32901B7DB00A8DC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0032BB42901B7DB00A8DC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0032BB62901B7DB00A8DC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DogChase/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pUmanzor.DogChase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0032BB72901B7DB00A8DC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DogChase/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pUmanzor.DogChase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0032BB92901B7DB00A8DC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pUmanzor.DogChaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogChase.app/DogChase";
+			};
+			name = Debug;
+		};
+		A0032BBA2901B7DB00A8DC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pUmanzor.DogChaseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DogChase.app/DogChase";
+			};
+			name = Release;
+		};
+		A0032BBC2901B7DB00A8DC44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pUmanzor.DogChaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogChase;
+			};
+			name = Debug;
+		};
+		A0032BBD2901B7DB00A8DC44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pUmanzor.DogChaseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DogChase;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0032B8C2901B7DA00A8DC44 /* Build configuration list for PBXProject "DogChase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0032BB32901B7DB00A8DC44 /* Debug */,
+				A0032BB42901B7DB00A8DC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0032BB52901B7DB00A8DC44 /* Build configuration list for PBXNativeTarget "DogChase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0032BB62901B7DB00A8DC44 /* Debug */,
+				A0032BB72901B7DB00A8DC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0032BB82901B7DB00A8DC44 /* Build configuration list for PBXNativeTarget "DogChaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0032BB92901B7DB00A8DC44 /* Debug */,
+				A0032BBA2901B7DB00A8DC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0032BBB2901B7DB00A8DC44 /* Build configuration list for PBXNativeTarget "DogChaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0032BBC2901B7DB00A8DC44 /* Debug */,
+				A0032BBD2901B7DB00A8DC44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0032B892901B7DA00A8DC44 /* Project object */;
+}
