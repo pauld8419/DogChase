@@ -22,6 +22,7 @@ class GameScene:SKScene {
         let dog:SKSpriteNode = SKSpriteNode(imageNamed: "DogAnimation1");
         dog.texture = dogTexture1;
         dog.position = CGPoint(x:200, y:200);
+        dog.zPosition = 1;
         addChild(dog);
         dog.run(SKAction.repeatForever(SKAction.animate(with: textures, timePerFrame: 0.1)));
         
@@ -35,6 +36,7 @@ class GameScene:SKScene {
         let officer:SKSpriteNode = SKSpriteNode(imageNamed: "OfficerAnimation1");
         officer.texture = officerTexture1;
         officer.position = CGPoint(x:600, y:600);
+        officer.zPosition = 1;
         addChild(officer);
         officer.run(SKAction.repeatForever(SKAction.animate(with: textures2, timePerFrame: 0.2)));
         
