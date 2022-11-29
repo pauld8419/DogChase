@@ -16,6 +16,7 @@
 		A0032BBF2901B81300A8DC44 /* DogCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0032BBE2901B81300A8DC44 /* DogCreationView.swift */; };
 		A0032BC12901B82900A8DC44 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0032BC02901B82900A8DC44 /* ProfileView.swift */; };
 		A019498B291583450005F9C3 /* GameplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019498A291583450005F9C3 /* GameplayView.swift */; };
+		A07CF8362936AFA900675E6E /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A07CF8352936AFA900675E6E /* GameOverScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A0032BC02901B82900A8DC44 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		A0194989291583090005F9C3 /* DogClipart */ = {isa = PBXFileReference; lastKnownFileType = file; name = DogClipart; path = ../../DogClipart; sourceTree = "<group>"; };
 		A019498A291583450005F9C3 /* GameplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayView.swift; sourceTree = "<group>"; };
+		A07CF8352936AFA900675E6E /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				A019498A291583450005F9C3 /* GameplayView.swift */,
 				A0032B982901B7DB00A8DC44 /* Assets.xcassets */,
 				A0032B9A2901B7DB00A8DC44 /* Preview Content */,
+				A07CF8352936AFA900675E6E /* GameOverScene.swift */,
 			);
 			path = DogChase;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07CF8362936AFA900675E6E /* GameOverScene.swift in Sources */,
 				A019498B291583450005F9C3 /* GameplayView.swift in Sources */,
 				A0032BBF2901B81300A8DC44 /* DogCreationView.swift in Sources */,
 				A0032BC12901B82900A8DC44 /* ProfileView.swift in Sources */,
