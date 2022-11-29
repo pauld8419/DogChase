@@ -15,6 +15,7 @@
 		A0032BB22901B7DB00A8DC44 /* DogChaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0032BB12901B7DB00A8DC44 /* DogChaseUITestsLaunchTests.swift */; };
 		A0032BBF2901B81300A8DC44 /* DogCreationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0032BBE2901B81300A8DC44 /* DogCreationView.swift */; };
 		A0032BC12901B82900A8DC44 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0032BC02901B82900A8DC44 /* ProfileView.swift */; };
+		A019498B291583450005F9C3 /* GameplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A019498A291583450005F9C3 /* GameplayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		A0032BB12901B7DB00A8DC44 /* DogChaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogChaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A0032BBE2901B81300A8DC44 /* DogCreationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCreationView.swift; sourceTree = "<group>"; };
 		A0032BC02901B82900A8DC44 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A0194989291583090005F9C3 /* DogClipart */ = {isa = PBXFileReference; lastKnownFileType = file; name = DogClipart; path = ../../DogClipart; sourceTree = "<group>"; };
+		A019498A291583450005F9C3 /* GameplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 				A0032B942901B7DA00A8DC44 /* DogChaseApp.swift */,
 				A0032BBE2901B81300A8DC44 /* DogCreationView.swift */,
 				A0032BC02901B82900A8DC44 /* ProfileView.swift */,
+				A019498A291583450005F9C3 /* GameplayView.swift */,
 				A0032B982901B7DB00A8DC44 /* Assets.xcassets */,
 				A0032B9A2901B7DB00A8DC44 /* Preview Content */,
 			);
@@ -126,6 +130,7 @@
 			children = (
 				A0032BAF2901B7DB00A8DC44 /* DogChaseUITests.swift */,
 				A0032BB12901B7DB00A8DC44 /* DogChaseUITestsLaunchTests.swift */,
+				A0194989291583090005F9C3 /* DogClipart */,
 			);
 			path = DogChaseUITests;
 			sourceTree = "<group>";
@@ -260,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A019498B291583450005F9C3 /* GameplayView.swift in Sources */,
 				A0032BBF2901B81300A8DC44 /* DogCreationView.swift in Sources */,
 				A0032BC12901B82900A8DC44 /* ProfileView.swift in Sources */,
 				A0032B952901B7DA00A8DC44 /* DogChaseApp.swift in Sources */,

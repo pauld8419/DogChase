@@ -7,7 +7,7 @@ class GameState: ObservableObject {
     @Published var dogSpeed:Int?;
     @Published var dogBoneCollection:Int?;
     @Published var dogMaxLives:Int?;
-    @Published var dogCurrentLives:Int?;
+    @Published var dogCurrentLives:Int? ;
     
     init(viewState:Int) {
         self.viewState = viewState;
