@@ -22,7 +22,7 @@ struct DogChaseApp: App {
             if (gameState.viewState == 0) {
                 DogCreationView().environmentObject(gameState);
             } else {
-                ProfileView().environmentObject(gameState);
+                GameplayView().environmentObject(gameState);
             }
             
         }

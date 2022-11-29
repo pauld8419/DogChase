@@ -18,7 +18,7 @@ struct ProfileView: View {
                 Text("Dog Bone Collection Radius: \(String(gameState.dogBoneCollection!))").font(.title2).foregroundColor(.green).bold();
             }
             HStack {
-                Text("Dog Max Lives: \(String(gameState.dogMaxLives!))").font(.title2).foregroundColor(.green).bold();
+                Text("Dog Max Lives: \(gameState.dogMaxLives!)").font(.title2).foregroundColor(.green).bold();
             }
         }
         Spacer();
