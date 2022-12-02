@@ -77,9 +77,10 @@ class GameScene:SKScene {
         let gameOverScene = GameOverScene(size: size, gameOver: false)
         gameOverScene.scaleMode = scaleMode
         
-        var background = SKSpriteNode(imageNamed: "gameOver");
+//        var background = SKSpriteNode(imageNamed: "gameOver");
         
         view?.presentScene(gameOverScene)
+        
     }
     
     func spawnBone() {
@@ -122,7 +123,7 @@ class GameScene:SKScene {
         [officerTexture1, officerTexture2, officerTexture3, officerTexture4];
         
         officer.texture = officerTexture1;
-        officer.position = CGPoint(x:600, y:600);
+        officer.position = CGPoint(x:600, y:300);
         officer.zPosition = 1;
         officer.name = "Officer"
         addChild(officer);
@@ -167,8 +168,10 @@ struct GameplayView: View {
     }
     var body: some View {
         VStack {
+            Button("Profile") {
+                gameState.viewState = 1;
+            }.foregroundColor(.black).font(.title2).frame(minWidth: 250, idealWidth: 250, maxWidth: 250, minHeight: 150, idealHeight: 150, maxHeight: 150).background(.green);
             SpriteView(scene: scene)
-           
         }
         }
     }

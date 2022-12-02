@@ -42,11 +42,8 @@ struct DogCreationView: View {
                 Button("Create Dog") {
                     gameState.dogName = dogName;
                     gameState.dogClass = selectedClass.rawValue.capitalized;
-                    gameState.dogSpeed = Int.random(in: 1...10);
-                    gameState.dogBoneCollection = Int.random(in: 1...10);
-                    gameState.dogCurrentLives = Int.random(in: 1...10);
-                    gameState.dogMaxLives = gameState.dogCurrentLives;
-                    gameState.viewState = 1;
+                    gameState.dogCurrentLives = 1
+                    gameState.viewState = 2;
                 }.foregroundColor(.black).font(.largeTitle).frame(minWidth: 250, idealWidth: 250, maxWidth: 250, minHeight: 150, idealHeight: 150, maxHeight: 150).background(.green);
             }
             Spacer();

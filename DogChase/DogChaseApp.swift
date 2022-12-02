@@ -21,6 +21,8 @@ struct DogChaseApp: App {
         WindowGroup {
             if (gameState.viewState == 0) {
                 DogCreationView().environmentObject(gameState);
+            } else if(gameState.viewState == 1) {
+                ProfileView().environmentObject(gameState)
             } else {
                 GameplayView().environmentObject(gameState);
             }
