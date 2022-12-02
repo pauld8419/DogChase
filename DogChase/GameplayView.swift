@@ -11,8 +11,8 @@ import SpriteKit
 
 class GameScene:SKScene {
     
-    var lives = 3
-    var gameOver = false
+    var lives = 1
+    var playerDead = false
 
     let dogTexture1 = SKTexture(imageNamed: "DogAnimation1");
     let dogTexture2 = SKTexture(imageNamed: "DogAnimation2");
@@ -68,6 +68,24 @@ class GameScene:SKScene {
     
     func dogHitOfficer(officer: SKSpriteNode) {
         officer.removeFromParent()
+        lives-=1
+        
+        if lives <= 0 && !playerDead {
+            playerDead = true
+        }
+        
+        let gameOverScene = GameOverScene(size: size, gameOver: false)
+        gameOverScene.scaleMode = scaleMode
+        
+        var background = SKSpriteNode(imageNamed: "gameOver");
+        
+        view?.presentScene(gameOverScene)
+    }
+    
+    func spawnBone() {
+        let bone = SKSpriteNode(imageNamed: "bone-1")
+        bone.position = CGPoint (x: CGFloat(arc4random_uniform(UInt32(UIScreen.main.bounds.width))), y: UIScreen.main.bounds.height)
+        addChild(bone)
     }
     
     
@@ -110,13 +128,14 @@ class GameScene:SKScene {
         addChild(officer);
         officer.run(SKAction.repeatForever(SKAction.animate(with: textures2, timePerFrame: 0.2)));
         
-        if lives <= 0 && !gameOver {
-            gameOver = true
-        }
-        
-        let gameOverScene = GameOverScene(size: size)
-        
-        let reveal = presentScene(gameOverScene, transition: reveal)
+//        if lives <= 0 && !playerDead {
+//            playerDead = true
+//        }
+//
+//        let gameOverScene = GameOverScene(size: size, gameOver: false)
+//        gameOverScene.scaleMode = scaleMode
+//
+//        view?.presentScene(gameOverScene)
     }
     
     var background = SKSpriteNode(imageNamed: "yard background");
@@ -126,6 +145,8 @@ class GameScene:SKScene {
         
 //        background.position = CGPoint(x: frame.size.width / 2, y: frame.size.height / 2)
 //        addChild(background)
+        
+        run(SKAction.repeatForever(SKAction.sequence([SKAction.run(spawnBone), SKAction.wait(forDuration: 3.0)])))
         
         DispatchQueue.main.async {
             self.background.zPosition = 0
